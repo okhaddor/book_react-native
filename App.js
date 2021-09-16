@@ -62,7 +62,7 @@ const App = ({user, onSaveToken}) => {
   return(
     <NavigationContainer linking={linkingOptions}>
       {
-        user.token !== '' ?
+        user.token !== '' ? 
           <MainRouter />
         :
           <AuthenticRouter />
